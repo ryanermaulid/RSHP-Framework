@@ -1,0 +1,161 @@
+/* public/css/admin.css */
+
+.admin-body {
+    background-color: #f4f7fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+/* Navigasi Samping */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Wrapper Konten Admin */
+.admin-wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Kartu Konten */
+.admin-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.admin-card h1, .admin-card h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+/* Tabel */
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.content-table th, .content-table td {
+    border: 1px solid #dee2e6;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.content-table thead th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f8f9fa;
+}
+
+.content-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.content-table a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Tombol Admin */
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    background-color: #6c757d;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Formulir Admin */
+.admin-card .form-group {
+    margin-bottom: 20px;
+}
+
+.admin-card label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.admin-card input[type="text"],
+.admin-card input[type="email"],
+.admin-card input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
